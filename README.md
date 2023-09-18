@@ -1,17 +1,21 @@
 This was an honors project with my Data Structures and Algorithms professor in Fall 2022 to build an AVL tree in C++ and and present it.
 
 Code Files:
-Main.cpp
-AVLTree.h
+- Main.cpp
+- AVLTree.h
 
 Compile:
+```
 g++ -std=c++11 -o prog *.cpp *.h
+```
 
 Run:
+```
 ./prog
+```
 
-Example Input:
-
+Example Input (omit comments):
+```
 I
 500             # Insert(500)
 P               # Print Tree
@@ -43,3 +47,4 @@ D
 75      
 P               # Print Tree
 Q               # Quit
+```
